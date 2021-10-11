@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T02:50:13 CDT" name="Default suite" finished-at="2021-10-11T02:51:04 CDT" duration-ms="51771">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTest.RunBookFlightTest@2ea227af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-10-11T02:50:13 CDT" name="Default test" finished-at="2021-10-11T02:51:04 CDT" duration-ms="51771">
+      <class name="RunTest.RunBookFlightTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:RunTest.RunBookFlightTest@2ea227af]" started-at="2021-10-11T02:50:13 CDT" name="setUpClass" finished-at="2021-10-11T02:50:13 CDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunTest.RunBookFlightTest@2ea227af]" started-at="2021-10-11T02:50:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-11T02:51:04 CDT" duration-ms="51591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book a flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["bookflight"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunTest.RunBookFlightTest@2ea227af]" started-at="2021-10-11T02:51:04 CDT" name="tearDownClass" finished-at="2021-10-11T02:51:04 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunTest.RunBookFlightTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
